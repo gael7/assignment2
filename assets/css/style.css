@@ -1,0 +1,65 @@
+html, body {
+	height: 100%;
+}
+#me{
+	width:250px;
+	height:250px;
+	float: left;
+	margin: 0 10px 0 0;
+}
+#github, #stackoverflow, #linkedin{
+	width: 75px;
+	height: 75px;
+	margin: 0 14px;
+}
+.hangman, .rpg, .trivia, .rutgers, .rock{
+	width: 280px;
+	height: 280px;
+	background-size: contain;
+	margin:15px;
+	float: left;
+	position: relative;
+}
+.hangman{
+	background-image: url(/Users/gaelarrambide/Desktop/Bootcamp/Week2/Portfolio/assignment2/assets/images/hangman.jpg);
+}
+.rpg{
+	background-image: url(/Users/gaelarrambide/Desktop/Bootcamp/Week2/Portfolio/assignment2/assets/images/rpg.jpg);
+}
+.trivia{
+	background-image: url(/Users/gaelarrambide/Desktop/Bootcamp/Week2/Portfolio/assignment2/assets/images/trivia.jpg);
+}
+.rutgers{
+	background-image: url(/Users/gaelarrambide/Desktop/Bootcamp/Week2/Portfolio/assignment2/assets/images/rutgers.jpg);
+}
+.rock{
+	background-image: url(/Users/gaelarrambide/Desktop/Bootcamp/Week2/Portfolio/assignment2/assets/images/rock.jpg);
+}
+#hangman, #rpg, #trivia, #rutgers, #rock{
+	position: absolute;
+	left: 0px;
+	bottom: 20px;
+	background-color: #398439;
+	width: 280px;
+	height: 40px;
+	text-align: center;
+  	color: white;
+  	margin: 0;
+  	font-size: 24px;
+}
+.panel-footer{
+	text-align: center;
+	margin-bottom: 0;
+}
+.footer{
+	margin: 0;
+}
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -72px;
+}
+.push {
+	height: 72px;
+}
